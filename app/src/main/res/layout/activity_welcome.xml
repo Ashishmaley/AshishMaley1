@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/img_9"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/headline" />
+
+
+    <TextView
+        android:id="@+id/headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome_ayush"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="337dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="68dp"
+        android:layout_gravity="center"
+        android:onClick="explore"
+        android:src="@drawable/img_15"
+        app:layout_constraintTop_toBottomOf="@+id/headline" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="333dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="108dp"
+        android:onClick="uploadImage"
+        android:layout_gravity="center"
+        android:src="@drawable/img_16"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+</LinearLayout>

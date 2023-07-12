@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AshishMaley1</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+    <string name="about_us">About Us</string>
+    <string name="ready">Ready</string>
+    <string name="meta_explains_how_ai_influences_what_we_see_on_facebook_and_instagram">Meta explains how AI influences what we see on Facebook and Instagram</string>
+    <string name="welcome_ayush">Welcome Ayush</string>
+    <string name="feed">Feed</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="skip_intro">Skip Intro</string>
+    <string name="likes">Likes</string>
+</resources>
